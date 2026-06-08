@@ -1,0 +1,128 @@
+#index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mohammed Thaleeb M R</h1>
+        <p>Student | Web Developer | Learner</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtyJ8JLxj5h68uQFIpc47ipeC-oWQIPwHVig&s" width = 220 , height = 220, alt="My Photo">
+        <p>
+            I am a beginner web developer currently learning HTML, CSS,
+            JavaScript, and C#. I enjoy creating simple websites and
+            learning new technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C Programming</li>
+            <li>C#</li>
+            <li>Python Basics</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>A simple application to manage student records.</p>
+        </div>
+
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>A website that showcases my skills and projects.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: mohammedthaleeb@example.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Mohammed Thaleeb. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+#style.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.project {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 4px solid blue;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
